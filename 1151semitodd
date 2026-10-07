@@ -240,7 +240,7 @@
             formData.append("entry.1509030303", document.getElementById("visitorIP").value);
             formData.append("entry.1081306668", document.getElementById("browserFingerprint").value);
 
-            fetch("https://docs.google.com/forms/d/e/1FAIpQLSeODbYL8vO4-DU8UrodSvzC_2A7L-Oi-2BlYByiLc-BadOU_g/formResponse", {
+            fetch("https://docs.google.com/forms/d/e/1FAIpQLSeODbYL8vO4-DU8UrodSvzC_2A7L-Oi-2BlYByiLc-BadOU_g/viewform?usp=dialog", {
                 method: "POST",
                 body: formData,
                 mode: "no-cors"
